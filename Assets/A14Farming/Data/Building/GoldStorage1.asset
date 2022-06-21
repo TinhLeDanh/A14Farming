@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77b259dec0b5454eab0085847f2df7f, type: 3}
+  m_Name: GoldStorage1
+  m_EditorClassIdentifier: 
+  description: Increase Storage Capacity
+  upgradeDescription: 
+  cost: 200
+  sell: 100
+  buildTime: 5
+  buildCount: 1
+  icon: {fileID: 21300000, guid: d9ab430216883484bb5a5141dd60db70, type: 3}
+  prefab: {fileID: 8845464593386188315, guid: f781f24b65e31c04695a3f5059d18fc4, type: 3}

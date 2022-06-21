@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "154798473727",
+    "project_id": "dfarmproject-56d7f",
+    "storage_bucket": "dfarmproject-56d7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154798473727:android:1fbcdad077886bcef2a7ca",
+        "android_client_info": {
+          "package_name": "com.A14Studio.A14Farming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154798473727-ooldccp7junt88doheae32gv0adstfeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUmKIr10RGuT_hnUVO3PGm0SYgvpHvBK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154798473727-ooldccp7junt88doheae32gv0adstfeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154798473727:android:acb97a629296f4baf2a7ca",
+        "android_client_info": {
+          "package_name": "com.A14Studio.Farming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154798473727-kift5gk8e43t9hg063im59p4p0mofch1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.A14Studio.Farming",
+            "certificate_hash": "000dca0508af1bdbb746b8a22addac4e2a5cf55a"
+          }
+        },
+        {
+          "client_id": "154798473727-ooldccp7junt88doheae32gv0adstfeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUmKIr10RGuT_hnUVO3PGm0SYgvpHvBK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154798473727-ooldccp7junt88doheae32gv0adstfeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
