@@ -103,6 +103,7 @@ namespace A14Farming.Input
 		/// </summary>
 		void OnMouseMoved(PointerInfo pointer)
 		{
+			Debug.Log(1);
 			// We only respond to mouse info
 			var mouseInfo = pointer as MouseCursorInfo;
 

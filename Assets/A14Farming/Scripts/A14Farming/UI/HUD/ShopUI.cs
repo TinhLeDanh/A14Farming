@@ -76,9 +76,9 @@ namespace A14Farming.UI.HUD
         {
             for (int i = 0; i < list.Count; ++i)
             {
-                ShopItemUI script = AddShopItem(prefabShopItem, id, i);
-                script.Init(i, list[i]);
-                script.buttonTapped += OnButtonTapped;
+                ShopItemUI shopbutton = AddShopItem(prefabShopItem, id, i);
+                shopbutton.Init(i, list[i]);
+                shopbutton.buttonTapped += OnButtonTapped;
             }
 
             contents[id].GetComponent<RectTransform>().sizeDelta = new Vector3(320 * list.Count, 440);

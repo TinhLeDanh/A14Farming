@@ -353,6 +353,7 @@ namespace A14Farming.UI.HUD
             {
                 return;
             }
+            Debug.Log(1);
             BuyTower(pointer);
         }
 
@@ -864,7 +865,6 @@ namespace A14Farming.UI.HUD
                 throw new ArgumentNullException("towerToBuild");
             }
 
-            m_CurrentTower = Instantiate(towerToBuild.buildingGhostPrefab);
             m_CurrentTower = Instantiate(towerToBuild.buildingGhostPrefab);
             m_CurrentTower.Initialize(towerToBuild);
             m_CurrentTower.Hide();

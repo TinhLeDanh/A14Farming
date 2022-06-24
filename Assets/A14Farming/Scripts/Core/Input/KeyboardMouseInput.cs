@@ -63,6 +63,11 @@ namespace Core.Input
 		/// </summary>
 		protected virtual void OnEnable()
 		{
+			
+		}
+
+        private void Start()
+        {
 			if (!InputController.instanceExists)
 			{
 				Debug.LogError("[UI] Keyboard and Mouse UI requires InputController");
@@ -76,10 +81,10 @@ namespace Core.Input
 			controller.pressed += OnPress;
 		}
 
-		/// <summary>
-		/// Deregister input events
-		/// </summary>
-		protected virtual void OnDisable()
+        /// <summary>
+        /// Deregister input events
+        /// </summary>
+        protected virtual void OnDisable()
 		{
 			if (!InputController.instanceExists)
 			{
