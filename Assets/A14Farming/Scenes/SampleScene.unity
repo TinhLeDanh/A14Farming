@@ -821,10 +821,10 @@ MonoBehaviour:
   zoomedCamAngle: {fileID: 1811905284}
   mapSize:
     serializedVersion: 2
-    x: -37.710068
-    y: -22.532475
-    width: 54.58103
-    height: 59.198277
+    x: -24.786854
+    y: -14.125121
+    width: 45.20281
+    height: 50.323166
   springyZoom: 1
 --- !u!114 &963194232
 MonoBehaviour:
